@@ -6,6 +6,11 @@ The function `curveMCMC' fits group-specific Bayesian penalized smoothing spline
 The function `plotCurve' plots two curves corresponding to two levels from a single treatment group or from two treatment groups,
 and their contrast curve with credible intervals.
 
+## Installation:
+library(devtools)\
+install_github("jialiwang1211/Curvecompare")\
+library(Curvecompare)
+
 ## Example
 The `growth' data is obtained from 'fda' package (https://cran.r-project.org/web/packages/fda/index.html), which contains Berkeley growth data for 54 girls and 39 boys at 31 ages 
 from 1-18 years old. We fit penalized smoothing splines for boys and girls respectively and compare the difference between 
